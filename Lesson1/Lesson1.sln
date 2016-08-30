@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-ConfigurationFile", "03-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-ConfigFileWithoutLoginAndPass", "04-ConfigurationFileWithoutLoginAndPass\04-ConfigFileWithoutLoginAndPass.csproj", "{60D9CBE7-015C-40B3-B228-40071F697D5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-PoolConnection", "05-PoolConnection\05-PoolConnection.csproj", "{C985030D-2BD6-4FF0-A46E-E53E1D859677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{60D9CBE7-015C-40B3-B228-40071F697D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60D9CBE7-015C-40B3-B228-40071F697D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60D9CBE7-015C-40B3-B228-40071F697D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C985030D-2BD6-4FF0-A46E-E53E1D859677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C985030D-2BD6-4FF0-A46E-E53E1D859677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C985030D-2BD6-4FF0-A46E-E53E1D859677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C985030D-2BD6-4FF0-A46E-E53E1D859677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
