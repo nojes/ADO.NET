@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-ConnectionString", "01-ConnectionString\01-ConnectionString.csproj", "{8F2CDDBE-7332-4965-B70D-C6E3E0FC00EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-SqlConnectionStringBuilder", "02-SqlConnectionStringBuilder\02-SqlConnectionStringBuilder.csproj", "{447740EC-C653-4AD2-B68C-135B009AC12D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8F2CDDBE-7332-4965-B70D-C6E3E0FC00EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F2CDDBE-7332-4965-B70D-C6E3E0FC00EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F2CDDBE-7332-4965-B70D-C6E3E0FC00EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447740EC-C653-4AD2-B68C-135B009AC12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447740EC-C653-4AD2-B68C-135B009AC12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447740EC-C653-4AD2-B68C-135B009AC12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447740EC-C653-4AD2-B68C-135B009AC12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
