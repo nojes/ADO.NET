@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-SqlCommand", "01-SqlComm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-CommandOutputParam", "02-CommandOutputParam\02-CommandOutputParam.csproj", "{98466001-9A68-4F2B-81C4-FE6A6D6D6466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable", "IEnumerable\IEnumerable.csproj", "{CC161059-0222-44CE-9D31-3D8271B9425B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-ExucuteScalar", "03-ExucuteScalar\03-ExucuteScalar.csproj", "{AC50B200-351F-48CC-BCE6-7CA4F12D17FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{98466001-9A68-4F2B-81C4-FE6A6D6D6466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98466001-9A68-4F2B-81C4-FE6A6D6D6466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98466001-9A68-4F2B-81C4-FE6A6D6D6466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC161059-0222-44CE-9D31-3D8271B9425B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC161059-0222-44CE-9D31-3D8271B9425B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC161059-0222-44CE-9D31-3D8271B9425B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC161059-0222-44CE-9D31-3D8271B9425B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC50B200-351F-48CC-BCE6-7CA4F12D17FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC50B200-351F-48CC-BCE6-7CA4F12D17FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC50B200-351F-48CC-BCE6-7CA4F12D17FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC50B200-351F-48CC-BCE6-7CA4F12D17FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
