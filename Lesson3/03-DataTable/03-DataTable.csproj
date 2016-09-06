@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A9283E2D-4045-4D1A-A230-F71CFB69E704}</ProjectGuid>
+    <ProjectGuid>{D3676A4F-8F4C-4EB0-B88F-0072A03111CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02_DataColumn</RootNamespace>
-    <AssemblyName>02-DataColumn</AssemblyName>
+    <RootNamespace>_03_DataTable</RootNamespace>
+    <AssemblyName>03-DataTable</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
