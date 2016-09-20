@@ -26,11 +26,22 @@ namespace _03_Employers
             var query5 = employers
                 .Where(e => e.FirstName.ToLower().Count(c => c == 'a') == 2);
 
+            var select1 = from e in employers
+                          select new
+                          {
+                              e.EmployeeId,
+                              e.FirstName,
+                              e.LastName,
+                              Age = DateTime.Now.Year - e.DateBirthday.Year
+                          };
+
             writeItems("Years <= 35", query1);
             writeItems("Years <= 35 and >= 25", query2);
             writeItems("FirstName start with 'i'", query3);
             writeItems("FirstName or LastName start with 'd'", query4);
             writeItems("FirstName contain 2 'a'", query5);
+
+            writeItems("SELECT EmployeeId, FirstName, LastName, Age \nFROM Employers", select1);
         }
 
         static void writeItems<T>(string title, IEnumerable<T> items)
