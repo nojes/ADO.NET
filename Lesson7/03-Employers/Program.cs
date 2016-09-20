@@ -4,11 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataLayer;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace _03_Employers
 {
     class Program
     {
+        const string DATA_ROOT = "../../Data/";
+        static string fileName = "employers.dat";
+
         static void Main(string[] args)
         {
             List<Employee> employers = DataManager.GetEmployee();
@@ -26,14 +31,14 @@ namespace _03_Employers
             var query5 = employers
                 .Where(e => e.FirstName.ToLower().Count(c => c == 'a') == 2);
 
-            var select1 = from e in employers
-                          select new
+            var select1 = (from e in employers
+                          select new EmployeeForManager()
                           {
-                              e.EmployeeId,
-                              e.FirstName,
-                              e.LastName,
+                              EmployeeId = e.EmployeeId,
+                              FirstName = e.FirstName,
+                              LastName = e.LastName,
                               Age = DateTime.Now.Year - e.DateBirthday.Year
-                          };
+                          }).ToList();
 
             writeItems("Years <= 35", query1);
             writeItems("Years <= 35 and >= 25", query2);
@@ -42,6 +47,12 @@ namespace _03_Employers
             writeItems("FirstName contain 2 'a'", query5);
 
             writeItems("SELECT EmployeeId, FirstName, LastName, Age \nFROM Employers", select1);
+
+
+            FileStream fs = new FileStream(DATA_ROOT + fileName, FileMode.Create, FileAccess.Write, FileShare.None);
+            BinaryFormatter bf = new BinaryFormatter();
+            bf.Serialize(fs, select1);
+            fs.Close();
         }
 
         static void writeItems<T>(string title, IEnumerable<T> items)
