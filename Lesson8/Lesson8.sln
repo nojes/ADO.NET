@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Join", "01-Join\01-Join.csproj", "{DFC5C5BD-C94D-4F60-A69F-3D3963876E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\Lesson7\DataLayer\DataLayer.csproj", "{A6B0C3C7-B28C-4408-B324-0C9800009A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFC5C5BD-C94D-4F60-A69F-3D3963876E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC5C5BD-C94D-4F60-A69F-3D3963876E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC5C5BD-C94D-4F60-A69F-3D3963876E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC5C5BD-C94D-4F60-A69F-3D3963876E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B0C3C7-B28C-4408-B324-0C9800009A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B0C3C7-B28C-4408-B324-0C9800009A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B0C3C7-B28C-4408-B324-0C9800009A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B0C3C7-B28C-4408-B324-0C9800009A98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
